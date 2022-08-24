@@ -69,20 +69,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "feeler"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "bme280",
- "embedded-hal",
- "hyper",
- "lazy_static",
- "linux-embedded-hal",
- "prometheus",
- "tokio",
-]
-
-[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -392,6 +378,20 @@ dependencies = [
  "parking_lot",
  "protobuf",
  "thiserror",
+]
+
+[[package]]
+name = "prometheus-bme280-exporter"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bme280",
+ "embedded-hal",
+ "hyper",
+ "lazy_static",
+ "linux-embedded-hal",
+ "prometheus",
+ "tokio",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "feeler"
+name = "prometheus-bme280-exporter"
 version = "0.1.0"
 edition = "2021"
 
