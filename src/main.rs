@@ -54,7 +54,7 @@ impl TempServer {
         let measurement = self
             .bme280
             .lock()
-            .map_err(|e| anyhow!("lock poisined: {:?}", e))?
+            .map_err(|e| anyhow!("lock poisoned: {:?}", e))?
             .measure(&mut delay)
             .map_err(|e| anyhow!("unable to measure: {:?}", e))?;
         Ok(measurement)
